@@ -1,0 +1,14 @@
+# Nagłówki dla Netlify / Cloudflare Pages
+/*
+  Permissions-Policy: microphone=(self), camera=(), geolocation=()
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+
+/sw.js
+  Cache-Control: no-cache
+
+/index.html
+  Cache-Control: no-cache
+
+/manifest.webmanifest
+  Content-Type: application/manifest+json
